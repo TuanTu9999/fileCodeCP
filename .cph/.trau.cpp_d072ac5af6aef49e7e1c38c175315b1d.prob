@@ -1,0 +1,1 @@
+{"name":"Local: trau","url":"/Users/nguyentuantu/Documents/cp/trau.cpp","tests":[{"id":1746788768490,"input":"6\n4 -4 1 -3 1 -3","output":"5"},{"id":1746863417358,"input":"5 3\nvxlvp\nxvp","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/nguyentuantu/Documents/cp/trau.cpp","group":"local","local":true}

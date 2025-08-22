@@ -1,0 +1,22 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     trau
+relocations:
+  - { offset: 0xE2ED, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x47254, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0xE315, size: 0x8, addend: 0x0, symName: __ZL4maxn, symObjAddr: 0x7D0, symBinAddr: 0x100000FD8, symSize: 0x0 }
+  - { offset: 0xE32B, size: 0x8, addend: 0x0, symName: __ZL3MOD, symObjAddr: 0x7D4, symBinAddr: 0x100000FDC, symSize: 0x0 }
+  - { offset: 0xE341, size: 0x8, addend: 0x0, symName: _n, symObjAddr: 0x47258, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offset: 0xE366, size: 0x8, addend: 0x0, symName: _a, symObjAddr: 0x4725C, symBinAddr: 0x10000800C, symSize: 0x0 }
+  - { offset: 0xE37C, size: 0x8, addend: 0x0, symName: _sum, symObjAddr: 0x10A788, symBinAddr: 0x1000CB538, symSize: 0x0 }
+  - { offset: 0xE3D4, size: 0x8, addend: 0x0, symName: __ZN4sub14costE, symObjAddr: 0x10A790, symBinAddr: 0x1000CB540, symSize: 0x0 }
+  - { offset: 0xE48C, size: 0x8, addend: 0x0, symName: __ZN4sub24treeE, symObjAddr: 0x60CA4A0, symBinAddr: 0x10608B250, symSize: 0x0 }
+  - { offset: 0xE49B, size: 0x8, addend: 0x0, symName: __ZN4sub24lazyE, symObjAddr: 0x6250EF0, symBinAddr: 0x106211CA0, symSize: 0x0 }
+  - { offset: 0xE5C5, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_DHH_trau.cpp, symObjAddr: 0x848, symBinAddr: 0x100000F54, symSize: 0x14 }
+  - { offset: 0xE5DC, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x80C, symBinAddr: 0x100000F18, symSize: 0x3C }
+  - { offset: 0xE5FA, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x6AC, symBinAddr: 0x100000DF4, symSize: 0x124 }
+  - { offset: 0xE633, size: 0x8, addend: 0x0, symName: __ZN4sub23getEiiiii, symObjAddr: 0x5AC, symBinAddr: 0x100000CF4, symSize: 0x100 }
+  - { offset: 0xE6A5, size: 0x8, addend: 0x0, symName: __ZN4sub26updateEiiiiii, symObjAddr: 0x414, symBinAddr: 0x100000B5C, symSize: 0x198 }
+  - { offset: 0xE726, size: 0x8, addend: 0x0, symName: __ZN4sub24downEiii, symObjAddr: 0x26C, symBinAddr: 0x1000009B4, symSize: 0x1A8 }
+  - { offset: 0xE77A, size: 0x8, addend: 0x0, symName: __ZN4sub17processEv, symObjAddr: 0x20, symBinAddr: 0x100000768, symSize: 0x24C }
+  - { offset: 0xE847, size: 0x8, addend: 0x0, symName: __ZN4sub15checkEv, symObjAddr: 0x0, symBinAddr: 0x100000748, symSize: 0x20 }
+...

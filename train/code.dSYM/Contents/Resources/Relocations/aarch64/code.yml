@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/nguyentuantu/Public/cp/train/code'
+relocations:     []
+...

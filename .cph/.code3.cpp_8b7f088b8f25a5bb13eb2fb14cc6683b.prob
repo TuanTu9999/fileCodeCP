@@ -1,0 +1,1 @@
+{"name":"Local: code3","url":"/Users/nguyentuantu/Documents/cp/code3.cpp","tests":[{"id":1745913726636,"input":"5 7 1 4\n1 2\n1 3\n2 3\n2 4\n3 4\n3 5\n4 5","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/nguyentuantu/Documents/cp/code3.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: ZFACTOR","url":"/Users/nguyentuantu/Public/cp/ILS_chondttinh2024/ZFACTOR.cpp","tests":[{"id":1749024932013,"input":"2 10\n2 3","output":"5\n2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/nguyentuantu/Public/cp/ILS_chondttinh2024/ZFACTOR.cpp","group":"local","local":true}

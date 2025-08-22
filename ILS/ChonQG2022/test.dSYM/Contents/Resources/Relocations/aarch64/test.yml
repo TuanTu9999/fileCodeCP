@@ -1,0 +1,17 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     test
+relocations:
+  - { offset: 0xE318, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x46A57, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0xE340, size: 0x8, addend: 0x0, symName: __ZL4maxn, symObjAddr: 0x4A4, symBinAddr: 0x100000CB8, symSize: 0x0 }
+  - { offset: 0xE356, size: 0x8, addend: 0x0, symName: _n, symObjAddr: 0x46A58, symBinAddr: 0x100008004, symSize: 0x0 }
+  - { offset: 0xE36C, size: 0x8, addend: 0x0, symName: _ans, symObjAddr: 0x46A5C, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offset: 0xE395, size: 0x8, addend: 0x0, symName: _pre, symObjAddr: 0x46A60, symBinAddr: 0x10000800C, symSize: 0x0 }
+  - { offset: 0xE3AB, size: 0x8, addend: 0x0, symName: _nxt, symObjAddr: 0x5A330, symBinAddr: 0x10001B8DC, symSize: 0x0 }
+  - { offset: 0xE3CE, size: 0x8, addend: 0x0, symName: _a, symObjAddr: 0x6DC00, symBinAddr: 0x10002F1AC, symSize: 0x0 }
+  - { offset: 0xE4F8, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_SUBSTR.cpp, symObjAddr: 0x518, symBinAddr: 0x100000C28, symSize: 0x14 }
+  - { offset: 0xE50F, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x4DC, symBinAddr: 0x100000BEC, symSize: 0x3C }
+  - { offset: 0xE526, size: 0x8, addend: 0x0, symName: __ZSt3maxIiERKT_S2_S2_, symObjAddr: 0x46C, symBinAddr: 0x100000BB4, symSize: 0x38 }
+  - { offset: 0xE56E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x58, symBinAddr: 0x1000007A0, symSize: 0x414 }
+  - { offset: 0xE6A5, size: 0x8, addend: 0x0, symName: __Z5checkc, symObjAddr: 0x0, symBinAddr: 0x100000748, symSize: 0x58 }
+...

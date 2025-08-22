@@ -1,0 +1,22 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     check
+relocations:
+  - { offset: 0xE8B7, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x4ADEA, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0xE91E, size: 0x8, addend: 0x0, symName: _rd, symObjAddr: 0x4ADF0, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offset: 0xEA4F, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_check.cpp, symObjAddr: 0x740, symBinAddr: 0x100000E6C, symSize: 0x14 }
+  - { offset: 0xEA67, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x6D8, symBinAddr: 0x100000E04, symSize: 0x68 }
+  - { offset: 0xEA7F, size: 0x8, addend: 0x0, symName: __ZNSt8__detail4_ModIyLy312ELy1ELy0ELb1ELb1EE6__calcEy, symObjAddr: 0x610, symBinAddr: 0x100000DA8, symSize: 0x5C }
+  - { offset: 0xEAB8, size: 0x8, addend: 0x0, symName: __ZNSt8__detail4_ModIyLy0ELy1ELy0ELb1ELb0EE6__calcEy, symObjAddr: 0x5F4, symBinAddr: 0x100000D8C, symSize: 0x1C }
+  - { offset: 0xEAF1, size: 0x8, addend: 0x0, symName: __ZNSt8__detail5__modIyLy312ELy1ELy0EEET_S1_, symObjAddr: 0x5D8, symBinAddr: 0x100000D70, symSize: 0x1C }
+  - { offset: 0xEB42, size: 0x8, addend: 0x0, symName: __ZNSt8__detail5__modIyLy0ELy1ELy0EEET_S1_, symObjAddr: 0x5BC, symBinAddr: 0x100000D54, symSize: 0x1C }
+  - { offset: 0xEB96, size: 0x8, addend: 0x0, symName: __ZNSt23mersenne_twister_engineIyLm64ELm312ELm156ELm31ELy13043109905998158313ELm29ELy6148914691236517205ELm17ELy8202884508482404352ELm37ELy18444473444759240704ELm43ELy6364136223846793005EE11_M_gen_randEv, symObjAddr: 0x3E4, symBinAddr: 0x100000B7C, symSize: 0x1D8 }
+  - { offset: 0xEC84, size: 0x8, addend: 0x0, symName: __ZNSt23mersenne_twister_engineIyLm64ELm312ELm156ELm31ELy13043109905998158313ELm29ELy6148914691236517205ELm17ELy8202884508482404352ELm37ELy18444473444759240704ELm43ELy6364136223846793005EE4seedEy, symObjAddr: 0x310, symBinAddr: 0x100000AA8, symSize: 0xD4 }
+  - { offset: 0xED0D, size: 0x8, addend: 0x0, symName: __ZNSt23mersenne_twister_engineIyLm64ELm312ELm156ELm31ELy13043109905998158313ELm29ELy6148914691236517205ELm17ELy8202884508482404352ELm37ELy18444473444759240704ELm43ELy6364136223846793005EEclEv, symObjAddr: 0x250, symBinAddr: 0x1000009E8, symSize: 0xC0 }
+  - { offset: 0xED70, size: 0x8, addend: 0x0, symName: __ZNSt23mersenne_twister_engineIyLm64ELm312ELm156ELm31ELy13043109905998158313ELm29ELy6148914691236517205ELm17ELy8202884508482404352ELm37ELy18444473444759240704ELm43ELy6364136223846793005EEC1Ey, symObjAddr: 0x228, symBinAddr: 0x1000009C0, symSize: 0x28 }
+  - { offset: 0xED9F, size: 0x8, addend: 0x0, symName: __ZNKSt6chrono10time_pointINS_3_V212steady_clockENS_8durationIxSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv, symObjAddr: 0x210, symBinAddr: 0x1000009A8, symSize: 0x18 }
+  - { offset: 0xEDCC, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x11C, symBinAddr: 0x1000008B4, symSize: 0xF4 }
+  - { offset: 0xEE0F, size: 0x8, addend: 0x0, symName: __Z8makeTestv, symObjAddr: 0x60, symBinAddr: 0x1000007F8, symSize: 0xBC }
+  - { offset: 0xEE77, size: 0x8, addend: 0x0, symName: __Z6randomxx, symObjAddr: 0x18, symBinAddr: 0x1000007B0, symSize: 0x48 }
+  - { offset: 0xEEB4, size: 0x8, addend: 0x0, symName: __ZNKSt6chrono8durationIxSt5ratioILl1ELl1000000000EEE5countEv, symObjAddr: 0x0, symBinAddr: 0x100000798, symSize: 0x18 }
+...
