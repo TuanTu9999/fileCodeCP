@@ -1,117 +1,35 @@
 #include <bits/stdc++.h>
 
+#define all(x) x.begin(), x.end()
+#define pii pair<int, int>
+#define COMP(x) x.resize(unique(all(x)) - x.begin())
+template<typename T>
+inline bool maximize(T &res, const T &val) {
+    if (res < val) return res = val, 1;
+    return 0;
+}
+template<typename T>
+inline bool minimize(T &res, const T &val) {
+    if (res > val) return res = val, 1;
+    return 0;
+}
+
 using namespace std;
 
-long long n;
+#define maxn ((int)(1e5) + 10)
+#define LOG (int)(31 - __builtin_clz(maxn))
+const int MOD = 1e9 + 7;
+// #define ONLINE_JUDGE
 
-namespace sub1 {
-    inline bool checkSub() {
-        return n <= 10;
-    }
-
-    inline void process() {
-        if (n < 9) cout << n + 1;
-        else cout << 11;
-    }
-}
-
-namespace sub3 {
-    inline bool checkSub() {
-        return n <= 1000000;
-    }
-
-    long long Ans;
-
-    void process() {
-        for (int i = 1; i <= 2 * n; i++) {
-            string s = "";
-            int curI = i;
-            long long num = 0;
-            while (curI) {
-                num = num * 10 + (curI % 10);
-                curI /= 10;
-            }
-            if (num > n) {
-                Ans = i;
-                break;
-            }
-        }
-
-        cout << Ans;
-    }
-}
-
-namespace subAC {
-    void process() {
-        string Sn = "";
-        long long curN = n;
-        while (curN) {
-            Sn += (char)(curN % 10 + '0');
-            curN /= 10;
-        }
-        int len = (int)Sn.size();
-        reverse(Sn.begin(), Sn.end());    
-
-        cerr << n << '\n' << Sn << '\n';
-       
-        int cnt = 0;
-        for (char c : Sn) {
-            cnt += (c - '0') % 10 != 0;
-        }
-
-        if (cnt == 1) {
-            cout << 1;
-            for (int i = 1; i < len - 1; i++) cout << 0;
-            cout << Sn[0];
-            return;
-        }
-
-        if (Sn[0] != '9') {
-            cout << 1;
-            for (int i = 1; i < len; i++) cout << 0;
-            cout << (char)(Sn[0] + 1);
-            return;
-        }
-
-        cnt = 0;
-        int idx = 0;
-        for (int i = 0; i < len; i++) {
-            if (Sn[i] != '9') {
-                cnt++;
-                idx = i;
-            }
-        }
-        if (cnt) {
-            if (idx != len - 1) {
-                cout << 1;
-                for (int i = 1; i < idx; i++) {
-                    cout << 0;
-                }
-                cout << (char)(Sn[idx] + 1);
-                for (int i = idx + 1; i < len; i++) {
-                    cout << 9;
-                }
-            } else {
-                cout << (char)(Sn.back() + 1);
-                for (int i = 1; i < len; i++) cout << 9;
-            }
-        } else {
-            cout << 1;
-            for (int i = 1; i < len; i++) cout << 0;
-            cout << 1;
-        }
-    }
-}
-
-int main() {
-    ios::sync_with_stdio(0);
+signed main() {
+    ios_base::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
-    
-    freopen("INOUT.INP", "r", stdin);
-    freopen("INOUT.ANS", "w", stdout);
 
-    cin >> n;
-    sub3::process();
+#ifndef ONLINE_JUDGE
+#define FILENAME "INOUT"
+    freopen(FILENAME ".INP", "r", stdin);
+    freopen(FILENAME ".OUT", "w", stdout);
+#endif
 
     return 0;
 }
