@@ -1,0 +1,32 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int n;
+
+int cntDiv(int a){
+    int res = 1;
+    for(int i = 2;  i * i <= a; i++){
+        int cnt = 0;
+        while(a % i == 0){
+            cnt++;
+            a /= i;
+        }
+        res *= (cnt + 1);
+    }
+    if(a > 1) res *= 2;
+    return res;
+}
+
+int main(){
+    ios_base::sync_with_stdio(0); cin.tie(0);
+    #define NAME ""
+    if(fopen(NAME".INP", "r")){
+        freopen(NAME".INP", "r", stdin);
+        freopen(NAME".OUT", "w", stdout);
+    }
+    cin >> n;
+//    for(int i = 1; i <= n; i++) if(cntDiv(i) & 1) cout << i << ' ';
+    for(int i = 1; i * i <= n; i++) cout << i * i << ' ';
+    return 0;
+}
