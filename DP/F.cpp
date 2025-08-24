@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+const int maxn = 1e6 + 3;
+int n, a, b, c;
+long long dp[maxn];
+bool v[maxn];
+
+int main(){
+    ios_base::sync_with_stdio(0); cin.tie(0);
+    #define NAME ""
+    if(fopen(NAME".INP", "r")){
+        freopen(NAME".INP", "r", stdin);
+        freopen(NAME".OUT", "w", stdout);
+    }
+    cin >> n >> a >> b >> c;
+    for(int i = 1; i <= n; i++) cin >> v[i];
+    for(int i = 1; i <= n; i++){
+        if(v[i]){
+            dp[i] = min({dp[i - 1] + a, dp[max(0, i - 7)] + b, dp[max(0, i - 30)] + c});
+        }
+        else dp[i] = dp[i - 1];
+    }
+    cout << dp[n];
+    return 0;
+}
