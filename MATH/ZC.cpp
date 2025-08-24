@@ -1,0 +1,30 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int n;
+
+bool isPrime(int a){
+    if(a == 2 || a == 3) return 1;
+    if(a < 2 || a % 2 == 0 || a % 3 == 0) return 0;
+    for(int i = 5; i * i <= a; i += 6)
+        if(a % i == 0 || a % (i + 2) == 0) return 0;
+    return 1;
+}
+
+int main(){
+    ios_base::sync_with_stdio(0); cin.tie(0);
+    #define NAME ""
+    if(fopen(NAME".INP", "r")){
+        freopen(NAME".INP", "r", stdin);
+        freopen(NAME".OUT", "w", stdout);
+    }
+    cin >> n;
+    for(int i = n + 1; i > 0; i++){
+        if(isPrime(i)){
+            cout << i;
+            return 0;
+        }
+    }
+    return 0;
+}
