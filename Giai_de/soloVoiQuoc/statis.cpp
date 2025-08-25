@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-// https://drive.google.com/file/d/1TYY25TkNo_TzenTjwbl9CZJEitaLI8x-/view?usp=drive_link
+// https://drive.google.com/drive/folders/1MzAcfErm73vN4irKE2j5PPavBE7vTcCs?usp=drive_link
 
 #define all(x) x.begin(), x.end()
 #define pii pair<int, int>
@@ -111,9 +111,6 @@ signed main() {
     }
 
     sort(a + 1, a + n + 1);
-    for (int i = 1; i <= n; i++) cout << a[i].first << ' ';
-    cout << '\n';
-
     it.init(n);
 
     for (int i = 1; i <= n; i++) {
